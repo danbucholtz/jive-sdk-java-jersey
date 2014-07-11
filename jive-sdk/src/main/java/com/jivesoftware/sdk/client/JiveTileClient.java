@@ -62,7 +62,7 @@ public class JiveTileClient extends BaseJiveClient {
     private JiveAddOnApplication jiveAddOnApplication;
 
     @Inject
-    private JiveOAuthClient jiveOAuthClient;
+    private JiveOAuthClient jiveOAuthClient; 
 
     private static JiveTileClient instance = null;
 

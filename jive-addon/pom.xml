@@ -305,7 +305,7 @@
                     <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
                     <webAppConfig>
                         <!-- <overrideDescriptor>src/main/webapp/WEB-INF/web.xml</overrideDescriptor> -->
-                        <jettyEnvXml>src/main/webapp/WEB-INF/jetty-env.xml</jettyEnvXml>
+                        <!--<jettyEnvXml>src/main/webapp/WEB-INF/jetty-env.xml</jettyEnvXml>-->
                         <contextPath>/</contextPath>
                     </webAppConfig>
                     <contextXml>src/main/webapp/WEB-INF/jetty-context.xml</contextXml>

@@ -18,12 +18,12 @@
 
 package com.jivesoftware.sdk.config;
 
-import com.jivesoftware.sdk.service.oauth.google.GoogleOAuth2Service;
-import com.jivesoftware.sdk.utils.JiveSDKUtils;
+import javax.inject.Singleton;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.inject.Singleton;
+import com.jivesoftware.sdk.utils.JiveSDKUtils;
 
 /**
  * Created by rrutan on 2/6/14.

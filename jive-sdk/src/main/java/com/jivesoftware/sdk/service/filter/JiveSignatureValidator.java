@@ -39,6 +39,8 @@ import java.util.concurrent.Future;
  */
 @Singleton
 public class JiveSignatureValidator {
+	
+	private static final JiveSignatureValidator instance = new JiveSignatureValidator();
     private static final Logger log = LoggerFactory.getLogger(JiveSignatureValidator.class);
 
     private Client client = null;
@@ -54,6 +56,10 @@ public class JiveSignatureValidator {
         client = ClientBuilder.newClient();
         //client.register(...)
     } //end initClient
+    
+    public static JiveSignatureValidator getInstance(){
+    	return instance;
+    }
 
     protected boolean isValidSignature(JiveSignatureValidatable request) {
         String signature = request.getJiveSignature();

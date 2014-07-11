@@ -37,13 +37,14 @@ public class MyExampleAddOn extends JiveAddOnApplication {
 
         //*** NEED TO REGISTER ANY CLASSES THAT YOU WILL USE CDI INJECTIONS
         //*** THIS INCLUDES FOR @Inject, Events, @Context, @Observes ...
-        registerInjectables(
+        /*registerInjectables(
             MyExampleListTile.class,
             MyExampleTableTile.class,
             MyExampleCalendarTile.class,
             MyExampleGaugeTile.class,
             MyExampleGalleryTile.class
         );
+        */
 
     } // end constructor
 
